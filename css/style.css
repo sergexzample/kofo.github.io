@@ -1,0 +1,50 @@
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+body {
+    background-color: #D9B68C;
+}
+p.branding {
+    color: #FFF;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 150%;
+    display: inline-block;
+    padding: 20px 0px 0px 0px;
+}
+p.phone {
+    padding: 10px 10px 5px 10px;
+    color: #fff;
+    text-align: center;
+}
+#list.navbar{
+    background-color: #76552f;
+}
+.footer, a{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+.footer a:hover,a:focus{
+    color: #e6600b;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+#table tbody{
+    color: #000;
+    font-size: 120%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive;    
+}
+#table thead{
+    color: #e6600b;
+    font-size: 120%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive;  
+}
+#table caption{
+    color: #000;
+    font-size: 150%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive; 
+}

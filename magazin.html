@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Кофе - заманчивый аромат</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/style_masonry.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald" rel="stylesheet">
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <div class="navbar navbar-default navbar-static-top">
+          <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="sr-only">Открыть навигацию</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <a class="navbar-brand" href="index.html" title="Логотип">
+                 <img src="images/cup.jpg" width="62" height="49" alt="cup">kefo</a>
+              </div>
+             <div class="collapse navbar-collapse" id="responsive-menu">
+                  <ul class="nav navbar-nav">
+                      <li><a href="magazin.html">МАГАЗИНЫ</a></li>
+                      <li><a href="magazin.html">ДОСТАВКА</a></li>
+                      <li><a href="#">ОПЛАТА</a></li>
+                      <li>
+                          <p class="phone" data-trigger="hover" data-toggle="tooltip" data-placement="bottom" title="Работаем без перерыва">
+                              Время работы: c 10<sup>00</sup> до 22<sup>00</sup><br>
+                              <i class="fa fa-phone-square"></i> 8-800-xxx-xxx
+                          </p>
+                      </li>
+                  </ul>
+        <!--                      ФОРМА АВТОРИЗАЦИИ-->
+                  <form action="" class="navbar-form navbar-right">
+                      <div class="form-group">
+                          <input type="text" class="form-control" placeholder="E-mail" value="">
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Password" value="">
+                      </div>
+                      <button class="btn btn-primary" type="submit" data-trigger="hover" data-toggle="tooltip" data-placement="bottom" title="Авторизация">
+                          <i class="fa fa-sign-in"></i>&nbsp;ВОЙТИ
+                      </button>
+                  </form>
+              </div>
+          </div>
+    </div>
+ 
+<!--    ФУТЕР-->
+    <div class="container">
+      <div class="row">
+       <div class="container">
+        <table id="table" class="table table-bordered table-hover table-condensed">
+            <caption>Таблица заказов-доставки</caption>
+                <thead>
+                    <tr>
+                    <th>#</th>
+                    <th>Вид кофе</th>
+                    <th>Магазин-1 ул.Ильича, 1</th>
+                    <th>Магазин-2 ул.Московскаяя, 3</th>
+                    <th>Заказ</th>
+                    <th>Доставка</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>Американо</td>
+                    <td>+</td>
+                    <td>+</td>
+                    <td>30 мин</td>
+                    <td>Да</td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>Глясе</td>
+                    <td>-</td>
+                    <td>+</td>
+                    <td>40 мин</td>
+                    <td>Да</td>
+                    </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>Капучино</td>
+                    <td>+</td>
+                    <td>+</td>
+                    <td>30 мин</td>
+                    <td>Да</td>
+                    </tr>
+                    <tr>
+                    <td>4</td>
+                    <td>Лате</td>
+                    <td>+</td>
+                    <td>-</td>
+                    <td>40 мин</td>
+                    <td>Да</td>
+                    </tr>
+                    <tr>
+                    <td>5</td>
+                    <td>Мокко</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>40 мин</td>
+                    <td>Да</td>
+                    </tr>
+                    <tr>
+                    <td>6</td>
+                    <td>Эспрессо</td>
+                    <td>+</td>
+                    <td>+</td>
+                    <td>30 мин</td>
+                    <td>Да</td>
+                    </tr>
+                    <p id="zakaz">Доставка производится при заказе от 5 шт.</p>
+                    
+                </tbody>
+        </table>
+    </div>
+</div>
+        <hr>
+        <div class="row">
+           <div class="col-xs-4">
+                <p><a class="footer" href="#" title="Логотип">kefo Company ©</a></p>
+                <p>Права на фотографии принадлежат их авторам.</p>
+                <p>Данная страница создана в качестве примера</p>
+            </div>
+            <div class="col-xs-8">
+                <ul class="footer">
+                    <li><a href="magazin.html">Магазины</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="magazin.html">Заказ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/salvattore.min.js"></script>                             <!--подключаем salvattore для того, чтобы сетка не плыла сетки-->
+    <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="https://yastatic.net/share2/share.js" async="async"></script>
+  </body>
+</html>
